@@ -1,22 +1,35 @@
-.background-image-home{
-    background-image: url('../img/background_img/background_image_home.jpg');
+.navbar-custom {
+    background-color: darkblue;
 }
 
-.background-image-informatiker{
-    background-image: url('../img/background_img/background_image_informatiker.jpg');
+.Home-Text {
+    text-align: center; 
 }
 
-.background-image-basislehrjahr{
-    background-image: url('../img/background_img/background_image_basislehrjahr.jpg');
-  
+.banner {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+    background: url(../img/background_image_06.jpg);
+	background-size: cover;
+	margin-bottom: 0;
 }
 
-.background-image-sonova{
-    background-image: url('../img/background_img/background_image_sonova.jpg');
-
+.contentBox h1 {
+	font-weight: 650;
+	color: #fff;
+	text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 100px;
 }
-
-.background-image-tipps{
-    background-image: url('../img/background_img/background_image_tipps.jpg');
-
+.footer-custom {
+    background-color: darkblue;
+}
+.footer-text {
+    color: white;
+}
+.deco-img {
+    align-content: center;
 }
