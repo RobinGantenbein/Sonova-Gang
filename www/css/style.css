@@ -1,22 +1,30 @@
 .background-image-home{
     background-image: url('../img/background_img/background_image_home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .background-image-informatiker{
     background-image: url('../img/background_img/background_image_informatiker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .background-image-basislehrjahr{
     background-image: url('../img/background_img/background_image_basislehrjahr.jpg');
-  
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .background-image-sonova{
     background-image: url('../img/background_img/background_image_sonova.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .background-image-tipps{
     background-image: url('../img/background_img/background_image_tipps.jpg');
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
