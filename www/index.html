@@ -27,25 +27,75 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <div class="background-image-home">
-            <div class="home_button">
-                <a href="index.html" class="">Home</a>
+      <header>
+        <!--Navigationsbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">Navbar</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Informatiker
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./html/informatiker.html">Applikationsentwickler</a>
+                      <a class="dropdown-item" href="./html/informatiker.html">Systemtechniker</a>
+                      <a class="dropdown-item" href="./html/informatiker.html">Betriebsinformatiker</a>
+                      <a class="dropdown-item" href="./html/informatiker.html">ICT-Fachmann</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./html/basislehrjahr.html">Basislehrjahr</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./html/lehrbetrieb.html">Sonova</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#./html/tipps.html">Tipps</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="">
-                <a href="./html/informatiker.html">Informatiker</a>
+          </nav>
+        </header>
+
+        <div class="jumbotron jumbotron-fluid height100p banner" >
+          <div class="container h100">
+            <div class="contentBox h100">
+              <div class="Home-Text">
+                <h1>Willkommen auf unserer Webseite</h1>
+                <div class="deco-img">
+                  <img src="./img/img12.png" class="img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="">
-                <a href="./html/basislehrjahr.html">Basislehrjahr</a>
-            </div>
-            <div>
-                <a href="./html/lehrbetrieb.html">Sonova</a>
-            </div>
-            <div>
-                <a href="./html/tipps.html">Tipps</a>
-            </div>
-            <div class="title-welcome">
-                <h1>Herzlich Willkommen auf unsere Webseite</h1>
-            </div>
+          </div>
         </div>
+    
+        <!--Footer-->
+        <footer class="page-footer font-small footer-custom">
+          <div class="footer-copyright text-center py-3 footer-text">  2020 Erstellt von: <br>
+            David S. und Issaya T.
+          </div>
+        </footer>
+
+        <!--cdn's für scripts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     </body>
 </html>
