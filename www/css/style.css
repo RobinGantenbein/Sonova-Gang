@@ -27,6 +27,7 @@
     background-image: url('../img/background_img/background_image_tipps.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
 .navbar-custom {
     background-color: darkblue;
 }
@@ -60,5 +61,5 @@
     color: white;
 }
 .deco-img {
-    align-content: center;
+    align-content: center; 
 }
